@@ -1,0 +1,14 @@
+{
+  "name": "blank-app",
+  "version": "0.0.3",
+  "module": "src/index.js",
+  "scripts": {
+    "start": "bun dev index.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "puppeteer": "^15.4.0"
+  }
+}
