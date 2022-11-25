@@ -11,9 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/GomezAgustin12/cocos-webscraping.git"
   },
-  "husky":{
-    "hooks":{
-      "pre-push": "echo hola"
+  "husky": {
+    "hooks": {
+      "pre-push": "node src/index.js"
     }
   },
   "keywords": [],
